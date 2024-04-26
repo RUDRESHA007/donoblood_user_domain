@@ -28,14 +28,14 @@
             <div class="donor_container">
                 <h1 class="hedding">Donate blood </h1>
                 <form action="/add_donors" method="post" class="donor_registration">
-                    <div class="fields" id="hide">
-                        <label for="">admin id</label>
-                        <input required type="text" name="admin_id" class="admin_id" value=""  readonly>
-                    </div>
-                    <div class="fields" >
-                        <label for="">user id</label>
-                        <input required type="text" name="user_id" class="user_id hide" value=""  readonly>
-                    </div>
+                  <div class="fields" >
+                    <label for="">user id</label>
+                    <input  type="text" name="user_id" class="user_id" value=""  class=hide readonly>
+                </div>
+                <div class="hide">
+                    <label for="">admin_id</label>
+                    <input  type="text" name="admin_id" class="admin_id" value="" readonly>
+                </div>
                     <div class="fields" id="hide">
                         <input required type="text" name="status" class="status" value="Pending"  readonly>
                     </div>
